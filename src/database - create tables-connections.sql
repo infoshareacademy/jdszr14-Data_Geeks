@@ -186,7 +186,7 @@ alter table name_geographic_information
 
 alter table population 
 	drop column codgeo,
-	drop column libgeo,
+	drop column libgeo;
 
 alter table base_etablissement_par_tranche_effectif 
 	drop column codgeo,

@@ -1,6 +1,14 @@
-# Bagietki, żaby i wieża Eiffla
+# # Baguettes, frogs and the Eiffel Tower
 
-Dane: https://www.kaggle.com/etiennelq/french-employment-by-town
+Data: https://www.kaggle.com/etiennelq/french-employment-by-town
 
-**Cel:** sytuacja na rynku francuskim pod kątem branż w których zarobki są najwyższe oraz
-najniższe z uwzględnieniem m.in. geografii, wielkości firm oraz pozostałych wskaźników
+**Goal:** the situation on the French market in terms of industries in which earnings are the highest and the lowest, taking into account, among others, geography, company size and other indicators
+
+## Authors
+
+The Library project was created by  [[JDSZR14-Data_Geeks](https://github.com/infoshareacademy/jdszr14-Data_Geeks)]
+
+-   [@inzynierslowa](https://github.com/inzynierslowa)
+-   [@kkarszna](https://github.com/kkarszna)
+-   [@michalbroch](https://github.com/michalbroch)
+-   [@WojBor87](https://github.com/WojBor87)

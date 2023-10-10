@@ -186,8 +186,12 @@ alter table name_geographic_information
 
 alter table population 
 	drop column codgeo,
+<<<<<<< HEAD
 	drop column libgeo,
 	drop column nivgeo;
+=======
+	drop column libgeo;
+>>>>>>> 17c9f01acf25b703c63564a69ccbf70a0e6db707
 
 alter table base_etablissement_par_tranche_effectif 
 	drop column codgeo,

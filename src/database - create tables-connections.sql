@@ -186,7 +186,12 @@ alter table name_geographic_information
 
 alter table population 
 	drop column codgeo,
+<<<<<<< HEAD
+	drop column libgeo,
+	drop column nivgeo;
+=======
 	drop column libgeo;
+>>>>>>> 17c9f01acf25b703c63564a69ccbf70a0e6db707
 
 alter table base_etablissement_par_tranche_effectif 
 	drop column codgeo,
@@ -204,6 +209,18 @@ alter table name_geographic_information
 	drop column numéro_département,
 	drop column nom_département,
 	drop column préfecture;
+
+CREATE INDEX idx_codgeo_libgeo ON codgeo_libgeo (codgeo, libgeo);
+CREATE INDEX idx_circo ON circo (eu_circo);
+CREATE INDEX idx_region ON region (code_region);
+CREATE INDEX idx_department ON department (numéro_département);
+CREATE INDEX idx_sex ON sex (sex);
+CREATE INDEX idx_codgeo_libgeo_id ON codgeo_libgeo (codgeo_libgeo_id);
+CREATE INDEX idx_region_id ON region (region_id);
+CREATE INDEX idx_circo_id ON circo (eu_circo_id);
+CREATE INDEX idx_department_id ON department (department_id);
+CREATE INDEX idx_eu_circo_id ON name_geographic_information (eu_circo_id);
+CREATE INDEX idx_region_id_info ON name_geographic_information (region_id);
+CREATE INDEX idx_department_id_info ON name_geographic_information (department_id);
+
 	
-
-

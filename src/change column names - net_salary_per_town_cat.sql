@@ -1,0 +1,29 @@
+select * from net_salary_per_town_categories
+
+
+--zmiany kolumn net_salary_per_town_categories  
+
+alter table net_salary_per_town_categories rename column snhm14 TO NS
+alter table net_salary_per_town_categories rename column snhmc14 TO NSH_executive
+alter table net_salary_per_town_categories rename column snhmp14 TO NSH_middle_manager
+alter table net_salary_per_town_categories rename column snhme14 TO NSH_employee
+alter table net_salary_per_town_categories rename column snhmo14 TO NSH_worker
+alter table net_salary_per_town_categories rename column snhmf14 TO NS_women
+alter table net_salary_per_town_categories rename column snhmfc14 TO NSH_feminin_executive
+alter table net_salary_per_town_categories rename column snhmfp14 TO NSH_feminin_middle_manager
+alter table net_salary_per_town_categories rename column snhmfe14 TO NSH_feminin_employee
+alter table net_salary_per_town_categories rename column snhmfo14 TO NSH_feminin_worker
+alter table net_salary_per_town_categories rename column snhmh14 TO NS_man
+alter table net_salary_per_town_categories rename column snhmhc14 TO NSH_masculin_executive
+alter table net_salary_per_town_categories rename column snhmhp14 TO NSH_masculin_middle_manager
+alter table net_salary_per_town_categories rename column snhmhe14 TO NSH_masculin_employee
+alter table net_salary_per_town_categories rename column snhmho14 TO NSH_masculin_worker
+alter table net_salary_per_town_categories rename column snhm1814 TO NSH_18_25
+alter table net_salary_per_town_categories rename column snhm2614 TO NSH_26_50
+alter table net_salary_per_town_categories rename column snhm5014 TO NSH_50high
+alter table net_salary_per_town_categories rename column snhmf1814 TO NSH_women_18_25
+alter table net_salary_per_town_categories rename column snhmf2614 TO NSH_women_26_50
+alter table net_salary_per_town_categories rename column snhmf5014 TO NSH_women_50high
+alter table net_salary_per_town_categories rename column snhmh1814 TO NSH_men_18_25
+alter table net_salary_per_town_categories rename column snhmh2614 TO NSH_men_26_50
+alter table net_salary_per_town_categories rename column snhmh5014 TO NSH_men_50high

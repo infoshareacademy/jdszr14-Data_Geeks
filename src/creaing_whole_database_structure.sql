@@ -58,7 +58,7 @@ CREATE TABLE public.base_etablissement_par_tranche_effectif (
 	from100to199_emloyees_firms_town int4 NULL,
 	from200to499_emloyees_firms_town int4 NULL,
 	more_then_500_emloyees_firms_town int4 NULL,
-	base_etablissement_id int4 NOT NULL DEFAULT nextval('base_etablissement_par_tranche_effect_base_etablissement_id_seq'::regclass),
+	base_etablissement_id int4 NOT NULL,
 	codgeo_libgeo_id int4 NULL,
 	region_id int4 NULL,
 	CONSTRAINT base_etablissement_par_tranche_effectif_pkey PRIMARY KEY (base_etablissement_id)

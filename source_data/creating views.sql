@@ -59,7 +59,12 @@ create view statistic_salary_data_man as
 		percentile_cont(0.75) within group (order by nsptc."NS_man") as "kwartyl_3"
 	from net_salary_per_town_categories nsptc
 
-
+create view salary_region as
+	select
+	nsptc.snhm14 as net_salary,
+	bepte.region_number as region_number
+	from net_salary_per_town_categories nsptc
+        join base_etablissement_par_tranche_effectif bepte on nsptc.codgeo_libgeo_id = bepte.codgeo_libgeo_id
 
 
 	

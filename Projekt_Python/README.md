@@ -1,8 +1,8 @@
-# # Plan ataku Greenpeace
+# # Wiedźmin 3 najlepszy!
 
-Data: https://www.kaggle.com/unitednations/international-energy-statistics
+Data: https://www.kaggle.com/datasets/whigmalwhim/steam-releases
 
-**Goal:** analiza państw pod kątem produkcji CO2 oraz energii pochodzącej ze źródeł odnawialnych Stakeholder: agencja poszukująca rynków na swoje produkty związane z odnawialnymi źródłami energii
+**Goal:** wybór najbardziej popularnych gier wideo dostępnych na platformie Steam Stakeholder: właściciel platformy, który potrzebuje wyników badań na temat popularności poszczególnych gatunków gier wideo
 
 ## Authors
 

@@ -1,8 +1,4 @@
-# # Baguettes, frogs and the Eiffel Tower
-
-Data: https://www.kaggle.com/etiennelq/french-employment-by-town
-
-**Goal:** the situation on the French market in terms of industries in which earnings are the highest and the lowest, taking into account, among others, geography, company size and other indicators
+# jdszr14-Data_Geeks
 
 ## Authors
 
